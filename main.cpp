@@ -21,15 +21,15 @@ int main(void)
 
     double n1;
     double n2;
-    char operand;
+    char operation;
 
     cout << "Enter two digits or digit names (0-9). Seperate with operation (+,-,*,/).\n";
     n1 = number(numberStrings);
 
-    cin >> operand;
+    cin >> operation;
 
     n2 = number(numberStrings);
 
-    calculation(n1,n2, operand);
+    calculation(n1,n2, operation);
 
 }

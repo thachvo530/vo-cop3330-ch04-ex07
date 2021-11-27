@@ -6,6 +6,6 @@
 #pragma once
 
 
-void calculation(double n1, double n2, char operand);
+void calculation(double n1, double n2, char operation);
 
 double number(std::vector<std::string> numberStrings);
